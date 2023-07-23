@@ -34,7 +34,7 @@
         theme: {
           extend: {
             backgroundImage: {
-              'my-tea': "url('./images/cup.png')",
+              "my-tea": "url('./images/cup.png')",
             },
           },
         },
@@ -43,12 +43,14 @@
   </head>
   <body>
     <!-- Header section start from here -->
-    <header class="bg-green-300">
+    <header class="bg-gradient-to-t from-red-100 via-red-100 to-orange-200">
       <section class="max-w-screen-xl mx-auto px-8 md:px-16 py-5 my-10">
         <div class="">
-          <div class="flex justify-between items-center flex-col lg:flex-row-reverse">
+          <div
+            class="flex justify-between items-center flex-col lg:flex-row-reverse"
+          >
             <div class="flex-1">
-              <img src="./images/banner.png" class=" rounded-lg" />
+              <img src="./images/banner.png" class="rounded-lg" />
               <div
                 class="rating bg-slate-300 w-50 p-5 rounded relative bottom-20 left-24"
               >
@@ -73,7 +75,7 @@
                 To Your Taste Buds.
               </p>
               <button
-                class="btn bg-gradient-to-r from-purple-500 to-pink-500 border-0 text-cyan-50"
+                class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] border-0 text-cyan-50"
               >
                 Explore More
                 <span><img src="./images/arrow.png" alt="" /></span>
@@ -191,84 +193,181 @@
 
       <!-- Meet our super client start from here -->
       <section
-        class="max-w-screen-xl mx-auto px-8 md:px-16 py-11 my-10 bg-gradient-to-r from-[#FF8938] to-[#F00]">
-         <div class="flex flex-col lg:flex-row gap-12  items-center">
-             <div class="space-y-4 text-cyan-50">
-                <h1 class="text-5xl">Meet Our Super Clients</h1>
-                <p class="lg:w-3/4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                <div class="bg-white max-w-max px-7 py-3 rounded-xl">
-                    <button class=" bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Show All</button>
-                </div>
-             </div>
-              <div class="relative">
-                <div class="relative bg-white p-11 rounded-xl mb-12 opacity-40">
-                  <img class="absolute -top-5 -left-5 border-4 rounded-full bg-white" src="./images/client.png" alt="">
-                  <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                  <h4 class="font-bold">Ilham Yuda</h4>
-                  <h2>Businessman</h2>
-                  <div class="flex justify-end">
-                    <img src="./images/circles.png" alt="">
-                  </div>
+        class="max-w-screen-xl mx-auto px-8 md:px-16 py-11 my-10 bg-gradient-to-r from-[#FF8938] to-[#F00]"
+      >
+        <div class="flex flex-col lg:flex-row gap-12 items-center">
+          <div class="space-y-4 text-cyan-50">
+            <h1 class="text-5xl">Meet Our Super Clients</h1>
+            <p class="lg:w-3/4">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+            <div class="bg-white max-w-max px-7 py-3 rounded-xl">
+              <button
+                class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+              >
+                Show All
+              </button>
+            </div>
+          </div>
+          <div class="relative">
+            <div class="relative bg-white p-11 rounded-xl mb-12 opacity-40">
+              <img
+                class="absolute -top-5 -left-5 border-4 rounded-full bg-white"
+                src="./images/client.png"
+                alt=""
+              />
+              <p>
+                We are providing the best and suitable home insurance services
+                for the people who are interested to treatment
+              </p>
+              <h4 class="font-bold">Ilham Yuda</h4>
+              <h2>Businessman</h2>
+              <div class="flex justify-end">
+                <img src="./images/circles.png" alt="" />
               </div>
-                <div class="absolute top-28 lg:-left-28 lg:top-28 lg:w-[444px] bg-white p-11 rounded-xl z-10">
-                  <img class="absolute -top-5 -left-5 border-4 rounded-full bg-white" src="./images/client.png" alt="">
-                  <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                  <h4 class="font-bold">Ilham Yuda</h4>
-                  <h2>Businessman</h2>
-                  <div class="flex justify-end">
-                    <img src="./images/circles.png" alt="">
-                  </div>
+            </div>
+            <div
+              class="absolute top-28 lg:-left-28 lg:top-28 lg:w-[444px] bg-white p-11 rounded-xl z-10"
+            >
+              <img
+                class="absolute -top-5 -left-5 border-4 rounded-full bg-white"
+                src="./images/client.png"
+                alt=""
+              />
+              <p>
+                We are providing the best and suitable home insurance services
+                for the people who are interested to treatment
+              </p>
+              <h4 class="font-bold">Ilham Yuda</h4>
+              <h2>Businessman</h2>
+              <div class="flex justify-end">
+                <img src="./images/circles.png" alt="" />
               </div>
-                <div class="relative bg-white p-11 rounded-xl opacity-40">
-                  <img class="absolute -top-5 -left-5 border-4 rounded-full bg-white" src="./images/client.png" alt="">
-                  <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                  <h4 class="font-bold">Ilham Yuda</h4>
-                  <h2>Businessman</h2>
-                  <div class="flex justify-end">
-                    <img src="./images/circles.png" alt="">
-                  </div>
+            </div>
+            <div class="relative bg-white p-11 rounded-xl opacity-40">
+              <img
+                class="absolute -top-5 -left-5 border-4 rounded-full bg-white"
+                src="./images/client.png"
+                alt=""
+              />
+              <p>
+                We are providing the best and suitable home insurance services
+                for the people who are interested to treatment
+              </p>
+              <h4 class="font-bold">Ilham Yuda</h4>
+              <h2>Businessman</h2>
+              <div class="flex justify-end">
+                <img src="./images/circles.png" alt="" />
               </div>
-              </div>
-         </div>
-         
+            </div>
+          </div>
+        </div>
       </section>
       <!-- Meet our super client end here -->
-
 
       <!-- News and Event section start from here -->
       <section class="max-w-screen-xl mx-auto px-8 md:px-16 py-3 my-10">
         <div class="text-center w-3/4 mx-auto">
-            <h1 class="text-5xl font-extrabold">News & Events</h1>
-            <p class="">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          <h1 class="text-5xl font-extrabold">News & Events</h1>
+          <p class="">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
         </div>
 
-         <div class="flex flex-col lg:flex-row gap-6 my-9">
-            <div class="p-6 border-2 space-y-2 rounded-xl">
-               <img src="./images/news-1.png" alt="">
-               <p>Feb 05, 2027</p>
-               <h2 class="text-xl font-bold">Collecting 8 points for discount</h2>
-               <p>There are many variations of passages of Lorem Ipsum available.</p>
-               <h5 class="font-bold">Learn More</h5>
-             </div>
-            <div class="p-6 border-2 space-y-2 rounded-xl">
-               <img src="./images/news-2.png" alt="">
-               <p>Feb 05, 2027</p>
-               <h2 class="text-xl font-bold">Collecting 8 points for discount</h2>
-               <p>There are many variations of passages of Lorem Ipsum available.</p>
-               <h5 class="font-bold">Learn More</h5>
-             </div>
-            <div class="p-6 border-2 space-y-2 rounded-xl">
-               <img src="./images/news-3.png" alt="">
-               <p>Feb 05, 2027</p>
-               <h2 class="text-xl font-bold">Collecting 8 points for discount</h2>
-               <p>There are many variations of passages of Lorem Ipsum available.</p>
-               <h5 class="font-bold">Learn More</h5>
-             </div>
-         </div>
-
+        <div class="flex flex-col lg:flex-row gap-6 my-9">
+          <div class="p-6 border-2 space-y-2 rounded-xl">
+            <img src="./images/news-1.png" alt="" />
+            <p>Feb 05, 2027</p>
+            <h2 class="text-xl font-bold">Collecting 8 points for discount</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <h5 class="font-bold">Learn More</h5>
+          </div>
+          <div class="p-6 border-2 space-y-2 rounded-xl">
+            <img src="./images/news-2.png" alt="" />
+            <p>Feb 05, 2027</p>
+            <h2 class="text-xl font-bold">Collecting 8 points for discount</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <h5 class="font-bold">Learn More</h5>
+          </div>
+          <div class="p-6 border-2 space-y-2 rounded-xl">
+            <img src="./images/news-3.png" alt="" />
+            <p>Feb 05, 2027</p>
+            <h2 class="text-xl font-bold">Collecting 8 points for discount</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available.
+            </p>
+            <h5 class="font-bold">Learn More</h5>
+          </div>
+        </div>
       </section>
       <!-- News and Event section start from here -->
     </main>
     <!-- Main section start end here -->
+
+    <!-- Footer section start -->
+
+    <footer class="bg-gradient-to-r from-[#FF000026] to-[#FF893826]">
+        <div class="max-w-screen-xl mx-auto flex justify-between p-10 items-center">
+            <img src="./images/cup.png" alt="">
+            <div class="flex items-center">
+                <p>Ready to get strated?</p>
+            <button class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] text-white">Get Started</button>
+            </div>
+        </div>
+      <div class="footer max-w-screen-xl mx-auto p-10 text-base-content">
+        
+        <div>
+          <span class="footer-title">Services</span>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </div>
+        <div>
+          <span class="footer-title">Company</span>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </div>
+        <div>
+          <span class="footer-title">Legal</span>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </div>
+        <div>
+          <span class="footer-title">Newsletter</span>
+          <div class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class=" py-3 px-3  w-full outline-none border-b-4"
+              />
+              <button
+                class="btn bg-gradient-to-r from-[#FF8938] to-[#F00] absolute top-0 -right-12 rounded-full"
+              >
+                <img src="./images/arrow.png" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer section end -->
   </body>
 </html>
